@@ -3062,6 +3062,30 @@
 			)
 		)
 	)
+	(global_label "SDA"
+		(shape bidirectional)
+		(at 187.96 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6f06c718-dca3-4252-848f-fe9c4f0b3d3a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.2954 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "SCL"
 		(shape bidirectional)
 		(at 106.68 48.26 0)
@@ -3086,6 +3110,30 @@
 			)
 		)
 	)
+	(global_label "SCL"
+		(shape bidirectional)
+		(at 187.96 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c05a373c-b120-40a3-9d08-d0205d93cd78")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.3559 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "+3.3V"
 		(shape passive)
 		(at 187.96 43.18 180)
@@ -3099,54 +3147,6 @@
 		(uuid "d9e58083-4366-4d33-bb78-3257c12d0640")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 180.4013 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SDA"
-		(shape bidirectional)
-		(at 187.96 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ed2b5e1c-e79d-42a2-b4ff-f2e0418fa38b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.2954 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SDA"
-		(shape bidirectional)
-		(at 187.96 48.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ee1c47dd-3e39-4c6a-9c4e-370fabbc747e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.2954 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3190,7 +3190,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal"
 			(at 101.6 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3397,7 +3397,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 121.412 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -3634,7 +3634,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 192.532 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -3716,7 +3716,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 130.302 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -3954,7 +3954,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 166.0652 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4035,7 +4035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 169.672 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -4116,7 +4116,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal"
 			(at 199.39 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -4210,7 +4210,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 191.4652 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4291,7 +4291,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 155.702 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -4530,7 +4530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 184.912 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -4688,7 +4688,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal"
 			(at 93.98 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -4779,7 +4779,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 130.302 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -5051,7 +5051,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 177.292 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -5290,7 +5290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 112.522 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -5447,7 +5447,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 149.86 79.248 90)
 			(hide yes)
 			(show_name no)
